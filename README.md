@@ -1,7 +1,7 @@
 
 rust-convert
 ================
-convienient api for type converting
+convienient api for type converting for Rust
 
 ### Installation
 
