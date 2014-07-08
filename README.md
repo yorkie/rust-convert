@@ -17,8 +17,8 @@ extern crate convert;
 extern crate collection;
 use collection::String;
 
-let raw: String = String::new("foobar");
-let str: &str = convert::str_to_string(raw);
+let raw: String = String::from_str("foobar");
+let str: &str = convert::str_to_string(&raw).unwrap();
 ```
 
 ### License
