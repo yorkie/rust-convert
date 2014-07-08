@@ -4,6 +4,6 @@
 
 use std::str;
 
-pub fn string_to_str(String raw) -> &str {
+pub fn string_to_str(raw: String) -> &str {
   str::from_utf8(raw.as_bytes()).unwrap()
 }
