@@ -7,7 +7,7 @@ convienient api for type converting for Rust
 
 by `Cargo.toml`:
 ```toml
-[dependencies.imap]
+[dependencies.convert]
 git = "https://github.com/yorkie/rust-convert"
 ```
 
