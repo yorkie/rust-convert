@@ -3,3 +3,4 @@ test
 target
 target/*
 *.rlib
+*.DS_Store

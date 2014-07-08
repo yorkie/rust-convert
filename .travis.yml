@@ -1,0 +1,9 @@
+before_install:
+  - wget http://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-gnu.tar.gz
+  - tar xf rust-nightly-x86_64-unknown-linux-gnu.tar.gz
+install:
+  - sudo ./rust-nightly-x86_64-unknown-linux-gnu/install.sh
+  - git clone https://github.com/yorkie/rust-convert.git
+  - cd rust-convert
+script:
+  - cargo test

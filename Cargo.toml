@@ -8,5 +8,3 @@ authors = [ "yorkiefixer@gmail.com" ]
 name = "convert"
 path = "convert.rs"
 
-[dependencies.openssl]
-git = "https://github.com/yorkie/rust-convert.git"
