@@ -1,0 +1,12 @@
+
+[package]
+name = "convert"
+version = "0.1.0"
+authors = [ "yorkiefixer@gmail.com" ]
+
+[[lib]]
+name = "convert"
+path = "convert.rs"
+
+[dependencies.openssl]
+git = "https://github.com/yorkie/rust-convert.git"
